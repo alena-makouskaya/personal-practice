@@ -1,0 +1,178 @@
+.App {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 40px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.todolists {
+  display: flex;
+  gap: 40px;
+}
+
+.todolist {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  padding: 24px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+
+
+}
+
+.todolistTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.errorButton {
+  width: 24px;
+  height: 24px;
+
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 4px;
+
+  color: red;
+}
+
+.addItemForm {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.addItem {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.inputForm label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #757575;
+}
+
+.inputForm input {
+  padding: 8px 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.addItemButton{
+  width: 32px;
+  height: 32px;
+
+  background-color: #333333;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.errorText{
+  color: red
+}
+
+.tasks{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.taskInput{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 4px;
+}
+
+.taskCheckbox{
+  width: 20px;
+  height: 20px;
+
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.filterTasksButtons {
+  display: flex;
+}
+
+.filterButton{
+  /* background-color: #333333;
+  color: white; */
+
+  flex: 1 1 auto;
+
+  padding: 8px 16px;
+  border: 1px solid #e5e5e5;
+}
+
+.filterButtonActive{
+  background-color: #333333;
+  color: white;
+
+  flex: 1 1 auto;
+
+  padding: 8px 16px;
+  border: 1px solid #e5e5e5;
+}
+
+.editableSpan {
+  padding: 8px 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.linearProgress{
+  padding: 8px 16px;
+
+  border: 1px solid red;
+  border-style: dashed;
+  border-radius: 8px;
+
+  color: red;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.errorSnackbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 8px 16px;
+
+  border: 1px solid red;
+  border-radius: 8px;
+
+  color: red;
+  font-size: 14px;
+  line-height: 20px;
+}
